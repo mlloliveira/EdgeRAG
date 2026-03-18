@@ -5,8 +5,7 @@ This folder separates **tracked paper-supporting artifacts** from **regenerable 
 ## Tracked inputs and snapshots
 
 - `paper/manuscript/` — paper snapshots and bibliography material supplied with the project
-- `paper/spreadsheets/` — uploaded result workbooks used during the writing workflow
-- `paper/reports/` — uploaded PDF report snapshots
+- `paper/results/` — uploaded result workbooks, PDF reports, figures and more used during the writing workflow
 
 ## Regenerable outputs
 
@@ -17,7 +16,6 @@ Use `paper/sample_outputs/` for locally regenerated analysis runs, for example:
 
 ## Reserved publication-facing folders
 
-- `paper/figures/`
-- `paper/tables/`
+- `paper/results/`
 
 These are convenient landing zones for curated paper-ready selections derived from regenerated outputs.
