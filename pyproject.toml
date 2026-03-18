@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "edgerag"
+version = "0.3.0"
+description = "Publication-ready local RAG experiment runner and analysis package"
+keywords = ["rag", "local-llm", "reproducibility", "kilt", "grounded-qa"]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy>=1.24",
+  "requests>=2.31",
+]
+
+[project.optional-dependencies]
+runner = [
+  "faiss-cpu>=1.7",
+  "ijson>=3.2",
+  "sentence-transformers>=2.2",
+]
+analysis = [
+  "matplotlib>=3.7",
+  "openpyxl>=3.1",
+  "pandas>=2.0",
+]
+sas = [
+  "sentence-transformers>=2.2",
+]
+dev = [
+  "pytest>=8.0",
+]
+
+[project.scripts]
+edgerag-run = "edgerag.cli.run:main"
+edgerag-analyze = "edgerag.cli.analyze:main"
+edgerag-analyze-sas = "edgerag.cli.analyze_sas:main"
+edgerag-rebuild-resume = "edgerag.cli.rebuild_resume:main"
+edgerag-estimate-runtime = "edgerag.cli.estimate_runtime:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

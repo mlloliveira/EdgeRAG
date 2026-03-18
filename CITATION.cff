@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: EdgeRAG
+message: >-
+  If you use this repository, please cite the accompanying paper and reference
+  this software snapshot. This repository snapshot preserves anonymized metadata
+  because the manuscript source provided for the refactor uses blinded author
+  placeholders.
+authors:
+  - family-names: Anonymous
+    given-names: Authors
+abstract: >-
+  Reproducibility-first local RAG evaluation repository for reduced KILT-NQ,
+  preserving the single-workstation, Ollama-served, provenance-aware workflow
+  used in the accompanying paper.
+keywords:
+  - retrieval-augmented generation
+  - local llm
+  - reproducibility
+  - KILT
+  - grounded QA
+license: "SEE LICENSE-TODO.txt"
+preferred-citation:
+  type: article
+  title: Resource-Constrained Evaluation of Quantized Local LLMs for Retrieval-Augmented Generation
+  authors:
+    - family-names: Anonymous
+      given-names: Authors
+  year: 2026
+  note: Manuscript metadata is anonymized in this review snapshot.

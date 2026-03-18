@@ -1,0 +1,9 @@
+License selection is intentionally deferred in this snapshot.
+
+The uploaded source files did not specify a project license, so this refactored
+repository keeps a conservative placeholder rather than inventing legal terms.
+Until the authors choose and publish a final license, treat the repository
+contents as all rights reserved by default.
+
+Before a DOI-tagged or public release, replace this file with the project's
+actual license text and update CITATION.cff accordingly.
