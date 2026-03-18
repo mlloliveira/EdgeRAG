@@ -1,0 +1,608 @@
+% Bibliography generated from the user's 62-paper collection.
+% Primary key = standard key (e.g., Petroni2021).
+% Alias keys are provided via the biblatex 'ids' field (e.g., cite5, cite25).
+% This file is best used with biblatex+biber.
+% If you use plain BibTeX/natbib and need alias keys like cite5 to work directly, use the compatibility file as well.
+
+@inproceedings{Lewis2020,
+  author = {Patrick Lewis and others},
+  title = {{Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks}},
+  ids = {cite1},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year = {2020},
+  keywords = {cite1}
+}
+
+@article{Chen2024,
+  author = {Jiawei Chen and others},
+  title = {{Benchmarking Large Language Models in Retrieval-Augmented Generation}},
+  ids = {cite2},
+  journal = {AAAI 2024},
+  year = {2024},
+  keywords = {cite2}
+}
+
+@inproceedings{Lin2024,
+  author = {Ji Lin and others},
+  title = {{{AWQ}: Activation-Aware Weight Quantization for On-Device LLM Compression and Acceleration}},
+  ids = {cite3,cite22},
+  booktitle = {Proceedings of the 7th MLSys Conference},
+  year = {2024},
+  keywords = {cite3,cite22}
+}
+
+@misc{Rau2024,
+  author = {David Rau and others},
+  title = {{{BERGEN}: A Benchmarking Library for Retrieval-Augmented Generation}},
+  ids = {cite4},
+  year = {2024},
+  note = {arXiv:2407.01102},
+  keywords = {cite4}
+}
+
+@inproceedings{Petroni2021,
+  author = {Fabio Petroni and others},
+  title = {{{KILT}: a Benchmark for Knowledge Intensive Language Tasks}},
+  ids = {cite5,cite25},
+  booktitle = {Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
+  year = {2021},
+  keywords = {cite5,cite25}
+}
+
+@misc{Salemi2024,
+  author = {Alireza Salemi and Hamed Zamani},
+  title = {{Evaluating Retrieval Quality in Retrieval-Augmented Generation}},
+  ids = {cite6},
+  year = {2024},
+  note = {arXiv:2404.13781},
+  keywords = {cite6}
+}
+
+@inproceedings{Shi2024,
+  author = {Zhengliang Shi and others},
+  title = {{Generate-then-Ground in Retrieval-Augmented Generation for Multi-hop Question Answering}},
+  ids = {cite7},
+  booktitle = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics},
+  year = {2024},
+  keywords = {cite7}
+}
+
+@inproceedings{Asai2024,
+  author = {Akari Asai and others},
+  title = {{{SELF-RAG}: Learning to Retrieve, Generate, and Critique through Self-Reflection}},
+  ids = {cite8},
+  booktitle = {International Conference on Learning Representations},
+  year = {2024},
+  keywords = {cite8}
+}
+
+@inproceedings{Guu2020,
+  author = {Kelvin Guu and others},
+  title = {{{REALM}: Retrieval-Augmented Language Model Pre-Training}},
+  ids = {cite9},
+  booktitle = {International Conference on Machine Learning},
+  year = {2020},
+  keywords = {cite9}
+}
+
+@inproceedings{Sorodoc2025,
+  author = {Ionut-Teodor Sorodoc and others},
+  title = {{{GaRAGe}: A Benchmark with Grounding Annotations for RAG Evaluation}},
+  ids = {cite10,cite53},
+  booktitle = {Findings of the Association for Computational Linguistics: ACL 2025},
+  year = {2025},
+  keywords = {cite10,cite53}
+}
+
+@misc{Radford2019,
+  author = {Alec Radford and others},
+  title = {{Language Models are Unsupervised Multitask Learners}},
+  ids = {cite11},
+  year = {2019},
+  note = {OpenAI technical report},
+  keywords = {cite11}
+}
+
+@article{Raffel2020,
+  author = {Colin Raffel and others},
+  title = {{Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer}},
+  ids = {cite12},
+  journal = {Journal of Machine Learning Research},
+  year = {2020},
+  keywords = {cite12}
+}
+
+@inproceedings{Petroni2019,
+  author = {Fabio Petroni and others},
+  title = {{Language Models as Knowledge Bases?}},
+  ids = {cite13},
+  booktitle = {Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing},
+  year = {2019},
+  keywords = {cite13}
+}
+
+@inproceedings{Kandpal2023,
+  author = {Nikhil Kandpal and others},
+  title = {{Large Language Models Struggle to Learn Long-Tail Knowledge}},
+  ids = {cite14},
+  booktitle = {International Conference on Machine Learning},
+  year = {2023},
+  keywords = {cite14}
+}
+
+@inproceedings{DeCao2021,
+  author = {Nicola De Cao and others},
+  title = {{Editing Factual Knowledge in Language Models}},
+  ids = {cite15},
+  booktitle = {Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing},
+  year = {2021},
+  keywords = {cite15}
+}
+
+@inproceedings{Karpukhin2020,
+  author = {Vladimir Karpukhin and others},
+  title = {{Dense Passage Retrieval for Open-Domain Question Answering}},
+  ids = {cite16},
+  booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing},
+  year = {2020},
+  keywords = {cite16}
+}
+
+@misc{Gao2024,
+  author = {Yunfan Gao and others},
+  title = {{Retrieval-Augmented Generation for Large Language Models: A Survey}},
+  ids = {cite17},
+  year = {2024},
+  note = {arXiv:2312.10997},
+  keywords = {cite17}
+}
+
+@inproceedings{Johnson2017,
+  author = {Jeff Johnson and others},
+  title = {{Billion-scale Similarity Search with GPUs}},
+  ids = {cite18},
+  booktitle = {IEEE Transactions / arXiv preprint 1702.08734},
+  year = {2017},
+  keywords = {cite18}
+}
+
+@inproceedings{Ma2023,
+  author = {Xinbei Ma and others},
+  title = {{Query Rewriting for Retrieval-Augmented Large Language Models}},
+  ids = {cite19},
+  booktitle = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+  year = {2023},
+  keywords = {cite19}
+}
+
+@inproceedings{Frantar2023,
+  author = {Elias Frantar and others},
+  title = {{{GPTQ}: Accurate Post-Training Quantization for Generative Pre-Trained Transformers}},
+  ids = {cite20,cite56,cite57},
+  booktitle = {International Conference on Learning Representations},
+  year = {2023},
+  keywords = {cite20,cite56,cite57}
+}
+
+@inproceedings{Xiao2023,
+  author = {Guangxuan Xiao and others},
+  title = {{{SmoothQuant}: Accurate and Efficient Post-Training Quantization for Large Language Models}},
+  ids = {cite21},
+  booktitle = {International Conference on Machine Learning},
+  year = {2023},
+  keywords = {cite21}
+}
+
+@misc{Kurt2026,
+  author = {Uygar Kurt},
+  title = {{Which Quantization Should I Use? A Unified Evaluation of llama.cpp Quantization on Llama-3.1-8B-Instruct}},
+  ids = {cite23},
+  year = {2026},
+  note = {arXiv:2601.14277},
+  keywords = {cite23}
+}
+
+@article{Sparrenberg2025,
+  author = {Lorenz Sparrenberg and others},
+  title = {{Small and Fast LLMs on Commodity Hardware: Post-Training Quantization in llama.cpp}},
+  ids = {cite24},
+  journal = {IEEE DSAA 2025},
+  year = {2025},
+  keywords = {cite24}
+}
+
+@inproceedings{Kwon2023,
+  author = {Woosuk Kwon and others},
+  title = {{Efficient Memory Management for Large Language Model Serving with PagedAttention}},
+  ids = {cite26},
+  booktitle = {Proceedings of the 29th Symposium on Operating Systems Principles},
+  year = {2023},
+  keywords = {cite26}
+}
+
+@article{Ray2025,
+  author = {Partha Pratim Ray and Mohan Pratap Pradhan},
+  title = {{An Evaluation Framework for Measuring Prompt-wise Metrics for Large Language Models in Resource-Constrained Edge}},
+  ids = {cite27},
+  journal = {BenchCouncil Transactions on Benchmarks, Standards and Evaluations},
+  year = {2025},
+  keywords = {cite27}
+}
+
+@misc{Nguyen2025,
+  author = {Tung (Thomas) Nguyen and Tuyen Nguyen},
+  title = {{An Evaluation of LLMs Inference on Popular Single-board Computers}},
+  ids = {cite28},
+  year = {2025},
+  note = {arXiv:2511.07425},
+  keywords = {cite28}
+}
+
+@misc{Rajesh2025,
+  author = {Varun Rajesh and others},
+  title = {{Production-Grade Local LLM Inference on Apple Silicon: A Comparative Study of MLX, MLC-LLM, Ollama, llama.cpp, and PyTorch MPS}},
+  ids = {cite29},
+  year = {2025},
+  note = {Preprint},
+  keywords = {cite29}
+}
+
+@inproceedings{Enevoldsen2025,
+  author = {Kenneth Enevoldsen and others},
+  title = {{{MMTEB}: Massive Multilingual Text Embedding Benchmark}},
+  ids = {cite30},
+  booktitle = {International Conference on Learning Representations},
+  year = {2025},
+  keywords = {cite30}
+}
+
+@misc{QwenTeam2025,
+  author = {{{Qwen Team}}},
+  title = {{{Qwen3} Technical Report}},
+  ids = {cite31},
+  year = {2025},
+  note = {arXiv:2505.09388},
+  keywords = {cite31}
+}
+
+@inproceedings{Wei2022,
+  author = {Jason Wei and others},
+  title = {{Chain-of-Thought Prompting Elicits Reasoning in Large Language Models}},
+  ids = {cite32},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year = {2022},
+  keywords = {cite32}
+}
+
+@misc{Zhang2025,
+  author = {Yanzhao Zhang and others},
+  title = {{{Qwen3} Embedding: Advancing Text Embedding and Reranking Through Foundation Models}},
+  ids = {cite33},
+  year = {2025},
+  note = {Technical report arXiv:2506.05176},
+  keywords = {cite33}
+}
+
+@inproceedings{Muennighoff2023,
+  author = {Niklas Muennighoff and others},
+  title = {{{MTEB}: Massive Text Embedding Benchmark}},
+  ids = {cite34},
+  booktitle = {Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics},
+  year = {2023},
+  keywords = {cite34}
+}
+
+@inproceedings{Wang2020,
+  author = {Wenhui Wang and others},
+  title = {{{MiniLM}: Deep Self-Attention Distillation for Task-Agnostic Compression of Pre-Trained Transformers}},
+  ids = {cite35},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year = {2020},
+  keywords = {cite35}
+}
+
+@article{Nussbaum2025,
+  author = {Zach Nussbaum and others},
+  title = {{Nomic Embed: Training a Reproducible Long Context Text Embedder}},
+  ids = {cite36},
+  journal = {Transactions on Machine Learning Research},
+  year = {2025},
+  keywords = {cite36}
+}
+
+@misc{Razavi2025,
+  author = {Amirhossein Razavi and others},
+  title = {{Benchmarking Prompt Sensitivity in Large Language Models}},
+  ids = {cite37},
+  year = {2025},
+  note = {arXiv:2502.06065},
+  keywords = {cite37}
+}
+
+@misc{Zhuo2024,
+  author = {Jingming Zhuo and others},
+  title = {{{ProSA}: Assessing and Understanding the Prompt Sensitivity of LLMs}},
+  ids = {cite38},
+  year = {2024},
+  note = {arXiv:2410.12405},
+  keywords = {cite38}
+}
+
+@inproceedings{Rajpurkar2016,
+  author = {Pranav Rajpurkar and others},
+  title = {{{SQuAD}: 100,000+ Questions for Machine Comprehension of Text}},
+  ids = {cite39},
+  booktitle = {Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing},
+  year = {2016},
+  keywords = {cite39}
+}
+
+@book{Manning2009,
+  author = {Christopher D. Manning and Prabhakar Raghavan and Hinrich Sch{"u}tze},
+  title = {{Introduction to Information Retrieval}},
+  ids = {cite40},
+  publisher = {Cambridge University Press},
+  year = {2009},
+  keywords = {cite40}
+}
+
+@inproceedings{Thorne2018,
+  author = {James Thorne and others},
+  title = {{{FEVER}: a Large-scale Dataset for Fact Extraction and Verification}},
+  ids = {cite41},
+  booktitle = {Proceedings of NAACL-HLT 2018},
+  year = {2018},
+  keywords = {cite41}
+}
+
+@inproceedings{Agrawal2024,
+  author = {Amey Agrawal and others},
+  title = {{Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve}},
+  ids = {cite42},
+  booktitle = {18th USENIX Symposium on Operating Systems Design and Implementation},
+  year = {2024},
+  keywords = {cite42}
+}
+
+@inproceedings{Zhong2024,
+  author = {Yinmin Zhong and others},
+  title = {{DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving}},
+  ids = {cite43},
+  booktitle = {18th USENIX Symposium on Operating Systems Design and Implementation},
+  year = {2024},
+  keywords = {cite43}
+}
+
+@misc{Gao2022,
+  author = {Luyu Gao and others},
+  title = {{Precise Zero-Shot Dense Retrieval without Relevance Labels}},
+  ids = {cite44},
+  year = {2022},
+  note = {arXiv:2212.10496},
+  keywords = {cite44}
+}
+
+@inproceedings{Mao2021,
+  author = {Yuning Mao and others},
+  title = {{Generation-Augmented Retrieval for Open-Domain Question Answering}},
+  ids = {cite45},
+  booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing},
+  year = {2021},
+  keywords = {cite45}
+}
+
+@inproceedings{Jiang2023,
+  author = {Zhengbao Jiang and others},
+  title = {{Active Retrieval Augmented Generation}},
+  ids = {cite46},
+  booktitle = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+  year = {2023},
+  keywords = {cite46}
+}
+
+@misc{Shi2023,
+  author = {Weijia Shi and others},
+  title = {{{REPLUG}: Retrieval-Augmented Black-Box Language Models}},
+  ids = {cite47},
+  year = {2023},
+  note = {arXiv:2301.12652},
+  keywords = {cite47}
+}
+
+@inproceedings{Izacard2021,
+  author = {Gautier Izacard and Edouard Grave},
+  title = {{Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering}},
+  ids = {cite48},
+  booktitle = {Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics},
+  year = {2021},
+  keywords = {cite48}
+}
+
+@inproceedings{Thakur2021,
+  author = {Nandan Thakur and others},
+  title = {{{BEIR}: A Heterogeneous Benchmark for Zero-shot Evaluation of Information Retrieval Models}},
+  ids = {cite49},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year = {2021},
+  keywords = {cite49}
+}
+
+@inproceedings{Barnett2024,
+  author = {Scott Barnett and others},
+  title = {{Seven Failure Points When Engineering a Retrieval Augmented Generation System}},
+  ids = {cite50},
+  booktitle = {Proceedings of the 3rd International Conference on AI Engineering --- Software Engineering for AI},
+  year = {2024},
+  keywords = {cite50}
+}
+
+@misc{Ru2024,
+  author = {Dongyu Ru and others},
+  title = {{{RAGCHECKER}: A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation}},
+  ids = {cite51},
+  year = {2024},
+  note = {arXiv:2408.08067},
+  keywords = {cite51}
+}
+
+@misc{SaadFalcon2024,
+  author = {Jon Saad-Falcon and others},
+  title = {{{ARES}: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems}},
+  ids = {cite52},
+  year = {2024},
+  note = {arXiv:2311.09476},
+  keywords = {cite52}
+}
+
+@inproceedings{Muller2025,
+  author = {Sacha Muller and others},
+  title = {{{GroUSE}: A Benchmark to Evaluate Evaluators in Grounded Question Answering}},
+  ids = {cite54},
+  booktitle = {Proceedings of the 31st International Conference on Computational Linguistics},
+  year = {2025},
+  keywords = {cite54}
+}
+
+@inproceedings{Dettmers2022,
+  author = {Tim Dettmers and others},
+  title = {{{LLM.int8()}: 8-bit Matrix Multiplication for Transformers at Scale}},
+  ids = {cite55},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year = {2022},
+  keywords = {cite55}
+}
+
+@inproceedings{Song2024,
+  author = {Yixin Song and others},
+  title = {{{PowerInfer}: Fast Large Language Model Serving with a Consumer-grade GPU}},
+  ids = {cite58},
+  booktitle = {Proceedings of the 30th Symposium on Operating Systems Principles},
+  year = {2024},
+  keywords = {cite58}
+}
+
+@inproceedings{Wang2024,
+  author = {Zijie J. Wang and Duen Horng Chau},
+  title = {{{MeMemo}: On-device Retrieval Augmentation for Private and Personalized Text Generation}},
+  ids = {cite59},
+  booktitle = {Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  year = {2024},
+  keywords = {cite59}
+}
+
+@misc{Seemakhupt2024,
+  author = {Korakit Seemakhupt and others},
+  title = {{{EdgeRAG}: Online-Indexed RAG for Edge Devices}},
+  ids = {cite60},
+  year = {2024},
+  note = {arXiv:2412.21023},
+  keywords = {cite60}
+}
+
+@misc{Yu2025,
+  author = {Weiping Yu and others},
+  title = {{{RAGDoll}: Efficient Offloading-based Online RAG System on a Single GPU}},
+  ids = {cite61},
+  year = {2025},
+  note = {arXiv:2504.15302},
+  keywords = {cite61}
+}
+
+@article{Wada2025,
+  author = {Akihiko Wada and others},
+  title = {{Retrieval-Augmented Generation Elevates Local LLM Quality in Radiology Contrast Media Consultation}},
+  ids = {cite62},
+  journal = {npj Digital Medicine},
+  year = {2025},
+  keywords = {cite62}
+}
+
+@inproceedings{Yu2024RankRAG,
+  author = {Yue Yu and Wei Ping and Zihan Liu and Boxin Wang and Jiaxuan You and Chao Zhang and Mohammad Shoeybi and Bryan Catanzaro},
+  title = {{RankRAG}: Unifying Context Ranking with Retrieval-Augmented Generation in LLMs},
+  ids = {cite4},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year = {2024},
+  keywords = {cite63}
+}
+
+@inproceedings{Carbonell1998MMR,
+  author = {Jaime Carbonell and Jade Goldstein},
+  title = {{The Use of MMR, Diversity-Based Reranking for Reordering Documents and Producing Summaries}},
+  ids = {cite5},
+  booktitle = {Proceedings of the 21st Annual International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  year = {1998},
+  keywords = {cite64}
+}
+
+@inproceedings{Yu2024,
+  author = {Hao Yu and Aoran Gan and Kai Zhang and Shiwei Tong and Qi Liu and and Zhaofeng Liu},
+  title = {{Evaluation of Retrieval-Augmented Generation: A Survey}},
+  ids = {cite65},
+  booktitle = {Proceedings of the 21st Annual International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  year = {1998},
+  keywords = {cite65}
+}
+
+@misc{Yu2024RAGEvalSurvey,
+  author = {Hao Yu and Aoran Gan and Kai Zhang and Shiwei Tong and Qi Liu and Zhaofeng Liu},
+  title = {{Evaluation of Retrieval-Augmented Generation: A Survey}},
+  ids = {cite65},
+  year = {2024},
+  note = {arXiv:2405.07437},
+  keywords = {cite65}
+}
+
+@misc{Gan2025RAGEvalComprehensiveSurvey,
+  author = {Aoran Gan and Hao Yu and Kai Zhang and Qi Liu and Wenyu Yan and Zhenya Huang and Shiwei Tong and Guoping Hu},
+  title = {{Retrieval Augmented Generation Evaluation in the Era of Large Language Models: A Comprehensive Survey}},
+  ids = {cite66},
+  year = {2025},
+  note = {arXiv:2504.14891},
+  keywords = {cite66}
+}
+
+@misc{Li2024EACORAG,
+  author = {Jiaxing Li and Chi Xu and Lianchen Jia and Feng Wang and Cong Zhang and Jiangchuan Liu},
+  title = {{EACO-RAG: Towards Distributed Tiered LLM Deployment using Edge-Assisted and Collaborative RAG with Adaptive Knowledge Update}},
+  ids = {cite67},
+  year = {2024},
+  note = {arXiv:2410.20299},
+  keywords = {cite67}
+}
+
+@misc{Sun2024CEBench,
+  author = {Wenbo Sun and Jiaqi Wang and Qiming Guo and Ziyu Li and Wenlu Wang and Rihan Hai},
+  title = {{CEBench: A Benchmarking Toolkit for the Cost-Effectiveness of LLM Pipelines}},
+  ids = {cite68},
+  year = {2024},
+  note = {arXiv:2407.12797},
+  keywords = {cite68}
+}
+
+@misc{Liu2025DRAGON,
+  author = {Shangyu Liu and Zhenzhe Zheng and Xiaoyao Huang and Fan Wu and Guihai Chen and Jie Wu},
+  title = {{Efficient Distributed Retrieval-Augmented Generation for Enhancing Language Model Performance}},
+  ids = {cite69},
+  year = {2025},
+  note = {arXiv:2504.11197},
+  keywords = {cite69}
+}
+
+@misc{Zhou2025DGRAG,
+  author = {Wenqing Zhou and Yuxuan Yan and Qianqian Yang},
+  title = {{DGRAG: Distributed Graph-based Retrieval-Augmented Generation in Edge-Cloud Systems}},
+  ids = {cite70},
+  year = {2025},
+  note = {arXiv:2505.19847},
+  keywords = {cite70}
+}
+
+@misc{Vrettos2025LocalRAGMedical,
+  author = {Konstantinos Vrettos and Michail E. Klontzas},
+  title = {{Accurate and Energy Efficient: Local Retrieval-Augmented Generation Models Outperform Commercial Large Language Models in Medical Tasks}},
+  ids = {cite71},
+  year = {2025},
+  note = {arXiv:2506.20009},
+  keywords = {cite71}
+}

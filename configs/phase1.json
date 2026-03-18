@@ -1,0 +1,146 @@
+{
+  "data_dir": "data",
+  "index_dir": "indices",
+  "results_dir": "results_phase1",
+  "time_limit_hours": 48.0,
+  "rewrite_prompts": true,
+  "top_k_values": [
+    5,
+    10
+  ],
+  "context_lengths": [
+    4096
+  ],
+  "max_questions": 500,
+  "subset_seed": 123,
+  "subset_mode": "random",
+  "kb_mode": "gold_plus_random",
+  "kb_random_passages": 100000,
+  "embed_models": [
+    {
+      "name": "all-MiniLM-L6-v2",
+      "params": 22600000,
+      "quant": "F16",
+      "size_gb": 0.046,
+      "notes": "Standard sentence-transformer baseline",
+      "nickname": "MiniLM-L6"
+    },
+    {
+      "name": "nomic-embed-text:v1.5",
+      "params": 137000000,
+      "quant": "F16",
+      "size_gb": 0.274,
+      "notes": "Popular local embed model",
+      "nickname": "Nomic-v1.5"
+    },
+    {
+      "name": "qwen3-embedding:4b",
+      "params": 4020000000,
+      "quant": "Q4_K_M",
+      "size_gb": 2.5,
+      "notes": "Strong embedding model",
+      "nickname": "QwenEmb-4B"
+    }
+  ],
+  "generator_models": [
+    {
+      "name": "qwen3:0.6b",
+      "params": 752000000,
+      "quant": "Q4_K_M",
+      "size_gb": 0.523,
+      "notes": "0.6B",
+      "nickname": "Qwen3:0.6B"
+    },
+    {
+      "name": "lfm2.5-thinking:1.2b",
+      "params": 1170000000,
+      "quant": "Q4_K_M",
+      "size_gb": 0.731,
+      "notes": "hybrid model; reasoning-focused",
+      "nickname": "LFM2.5:1.2B"
+    },
+    {
+      "name": "qwen3:1.7b",
+      "params": 2030000000,
+      "quant": "Q4_K_M",
+      "size_gb": 1.4,
+      "notes": "1.7B",
+      "nickname": "Qwen3:1.7B"
+    },
+    {
+      "name": "qwen3:4b",
+      "params": 4020000000,
+      "quant": "Q4_K_M",
+      "size_gb": 2.5,
+      "notes": "4B",
+      "nickname": "Qwen3:4B"
+    },
+    {
+      "name": "gemma3:4b",
+      "params": 4300000000,
+      "quant": "Q4_K_M",
+      "size_gb": 3.3,
+      "notes": "dense lightweight baseline",
+      "nickname": "Gemma3:4B"
+    },
+    {
+      "name": "granite4:7b-a1b-h",
+      "params": 6940000000,
+      "quant": "Q4_K_M",
+      "size_gb": 4.2,
+      "notes": "7B hybrid model with ~1B active parameters",
+      "nickname": "Granite4:7B"
+    },
+    {
+      "name": "qwen3:8b",
+      "params": 8190000000,
+      "quant": "Q4_K_M",
+      "size_gb": 5.2,
+      "notes": "8B",
+      "nickname": "Qwen3:8B"
+    },
+    {
+      "name": "Maternion/lfm2:8b",
+      "params": 8340000000,
+      "quant": "Q4_K_M",
+      "size_gb": 5.0,
+      "notes": "8.3B MoE model with 1.5B active parameters",
+      "nickname": "LFM2:8B"
+    },
+    {
+      "name": "gemma3:12b",
+      "params": 12000000000,
+      "quant": "Q4_K_M",
+      "size_gb": 8.1,
+      "notes": "dense multimodal model",
+      "nickname": "Gemma3:12B"
+    },
+    {
+      "name": "qwen3:14b",
+      "params": 14800000000,
+      "quant": "Q4_K_M",
+      "size_gb": 9.3,
+      "notes": "14B",
+      "nickname": "Qwen3:14B"
+    },
+    {
+      "name": "gpt-oss:20b",
+      "params": 20900000000,
+      "quant": "MXFP4",
+      "size_gb": 14.0,
+      "notes": "20.9B total parameters, 3.6B active; reasoning-oriented MoE",
+      "nickname": "GPT-OSS:20B"
+    },
+    {
+      "name": "qwen3:30b",
+      "params": 30500000000,
+      "quant": "Q4_K_M",
+      "size_gb": 19.0,
+      "notes": "30B",
+      "nickname": "Qwen3:30B"
+    }
+  ],
+  "avoid_redundant_p0_p1": true,
+  "first_token_timeout_s": 300,
+  "stream_timeout_s": 600
+}
