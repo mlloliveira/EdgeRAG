@@ -2,8 +2,6 @@
 
 EdgeRAG is a **reproducibility-first, publication-facing refactor** of the local RAG experiment used in the paper *Resource-Constrained Evaluation of Quantized Local LLMs for Retrieval-Augmented Generation*.
 
-The repository is intentionally conservative. It does **not** replace the original experiment with a new design. Instead, it reorganizes the already-run study into a cleaner package with stable entry points, preserved legacy wrappers, documented outputs, and paper-friendly artifact locations.
-
 ## What this repository evaluates
 
 The experiment evaluates four pipelines under a fixed local-stack workflow:
@@ -21,28 +19,12 @@ This repository is the runnable companion to the paper’s workstation-scale eva
 
 The manuscript describes a **single personal workstation** with:
 
-- Windows 10 (version 10.0)
-- AMD64 Family 25 Model 33 CPU, 32 physical cores / 32 threads
-- 64.0 GB RAM
 - one NVIDIA GeForce RTX 3090 GPU with 24.0 GB VRAM
 - Ollama 0.17.1
 - FAISS 1.13.2
 - Python 3.11.14
 
-The reported experiment workload required **more than 160 GPU-hours** of execution time on that local machine. The purpose of this repository is therefore not to claim universal model rankings, but to make this exact local-stack workflow inspectable, repeatable, and extendable.
-
-## What is intentionally preserved
-
-The refactor preserves the parts of the original experiment that matter for scientific continuity:
-
-- P0 / P1 / P2 / P3 semantics
-- prompt text and prompt roles
-- timeout defaults and watchdog logic
-- how failures are recorded in `results.jsonl`
-- resume-state hashing and progression logic
-- base lexical and provenance-aware metrics
-- reduced-KILT workflow structure
-- optional SAS as an extension rather than a base dependency
+The purpose of this repository is therefore not to claim universal model rankings, but to make this exact local-stack workflow inspectable, repeatable, and extendable.
 
 ## Quickstart
 
@@ -136,7 +118,7 @@ The canonical config is:
 configs/phase1.json
 ```
 
-It preserves the uploaded phase-1 settings, including:
+It preserves the original settings, including:
 
 - 500 deterministic KILT-NQ development questions
 - `subset_mode=random`
@@ -154,7 +136,7 @@ It preserves the uploaded phase-1 settings, including:
 python -m edgerag.cli.run --config configs/phase1.json --dry_run
 ```
 
-Dry-run now avoids Ollama execution, FAISS building, and KILT downloads. If the local KILT files are already present, it will also resolve the exact sampled question count and KB tag. If the local KILT files are absent, it reports the planned paths and configuration without downloading the dataset.
+Dry-run avoids Ollama execution, FAISS building, and KILT downloads. If the local KILT files are already present, it will also resolve the exact sampled question count and KB tag. If the local KILT files are absent, it reports the planned paths and configuration without downloading the dataset.
 
 ### 3. Run the experiment
 
@@ -171,19 +153,19 @@ edgerag-run   --config configs/phase1.json   --verbose_stream   --first_token_ti
 ### 4. Regenerate the base analysis outputs
 
 ```bash
-python -m edgerag.analysis.base   --config configs/phase1.json   --results results_phase1/results.jsonl   --outdir artifacts/paper/sample_outputs/base_analysis
+python -m edgerag.analysis.base   --config configs/phase1.json   --results results/results.jsonl   --outdir artifacts/paper/sample_outputs/base_analysis
 ```
 
 ### 5. Regenerate SAS outputs only when needed
 
 ```bash
-python -m edgerag.analysis.sas   --config configs/phase1.json   --results results_phase1/results.jsonl   --outdir artifacts/paper/sample_outputs/sas_analysis
+python -m edgerag.analysis.sas   --config configs/phase1.json   --results results/results.jsonl   --outdir artifacts/paper/sample_outputs/sas_analysis
 ```
 
 Skip SAS scoring but keep a SAS-shaped output path:
 
 ```bash
-python -m edgerag.analysis.sas   --config configs/phase1.json   --results results_phase1/results.jsonl   --outdir artifacts/paper/sample_outputs/sas_analysis   --skip_sas
+python -m edgerag.analysis.sas   --config configs/phase1.json   --results results/results.jsonl   --outdir artifacts/paper/sample_outputs/sas_analysis   --skip_sas
 ```
 
 ### 6. Rebuild resume state only if needed
@@ -195,7 +177,7 @@ python -m edgerag.cli.rebuild_resume --config configs/phase1.json
 ### 7. Estimate runtime from live stream logs
 
 ```bash
-python -m edgerag.cli.estimate_runtime --results_dir results_phase1
+python -m edgerag.cli.estimate_runtime --results_dir results_
 ```
 
 ## Expected outputs
@@ -239,9 +221,9 @@ Regenerated locally:
 - KB SQLite files and FAISS indices
 - downloaded KILT corpora
 
-## Backward compatibility and migration
+## Legacy
 
-The following old root-level filenames remain as thin wrappers:
+These are the legacy files:
 
 - `edge_rag_experiment_fix10.py`
 - `edge_rag_final_analysis_v2_5.py`
@@ -250,7 +232,7 @@ The following old root-level filenames remain as thin wrappers:
 - `estimate_gpu_runtime.py`
 - `phase1_config_fix9_v4.json`
 
-They are preserved for migration and reproducibility, while the stable public-facing paths live under `src/`, `configs/`, and `docs/`.
+They are preserved for migration and reproducibility.
 
 ## Scope and limitations
 
