@@ -1,5 +1,0 @@
-pipeline,error_stage,n
-P1,generate,51
-P2,generate,51
-P3,rewrite,82
-P3,generate,58
