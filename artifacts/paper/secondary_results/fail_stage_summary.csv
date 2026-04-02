@@ -1,0 +1,5 @@
+pipeline,error_stage,n
+P1,generate,5
+P2,generate,4
+P3,generate,6
+P3,rewrite,4

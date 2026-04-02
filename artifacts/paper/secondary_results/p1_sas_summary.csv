@@ -1,0 +1,5 @@
+generator,generator_label,sas
+gemma3:12b,Gemma3:12B,0.42923363619856536
+lfm2.5-thinking:1.2b,LFM2.5:1.2B,0.2872388741932809
+qwen3:14b,Qwen3:14B,0.38499590330156347
+qwen3:4b,Qwen3:4B,0.3705349908115152

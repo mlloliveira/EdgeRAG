@@ -1,0 +1,19 @@
+EdgeRAG analysis with SAS
+Raw rows: 11000
+Canonical rows: 11000
+Config used: configs\phase2.json
+Results used: results_phase2\results.jsonl
+Base analysis module: edgerag.analysis.base
+SAS model: cross-encoder/stsb-roberta-large
+SAS rationale: QA-specific semantic metric (cross-encoder) following Risch et al., MRQA 2021.
+
+Generated extra SAS outputs:
+- p1_sas_summary.csv/png (where applicable)
+- p23_sas_by_config.csv/png (where applicable)
+- table_generator_sas.csv/png (where applicable)
+- table_generator_grounded_sas_hit.csv/png (where applicable)
+- table_generator_grounded_sas_all.csv/png (where applicable)
+- fig7_generator_scaling_sas.png/.svg/.pdf
+- fig8_sas_vs_f1.png/.svg/.pdf
+- fig9_p2_heatmap_sas.png/.svg/.pdf
+- fig10_p3_heatmap_sas.png/.svg/.pdf

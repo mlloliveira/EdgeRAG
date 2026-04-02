@@ -1,0 +1,5 @@
+Generator,P2 gEM-all k = 10,P3 gEM-all k = 10
+LFM2.5:1.2B,0.054,0.032
+Qwen3:4B,0.268,0.22
+Gemma3:12B,0.156,0.13
+Qwen3:14B,0.03,0.026

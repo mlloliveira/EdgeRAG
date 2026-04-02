@@ -1,0 +1,5 @@
+Pipeline,Error stage,Count
+P3,generate,6
+P3,rewrite,4
+P2,generate,4
+P1,generate,5

@@ -1,0 +1,13 @@
+generator,generator_label,pipeline,fail_rate
+gemma3:12b,Gemma3:12B,P1,0.0
+gemma3:12b,Gemma3:12B,P2,0.0
+gemma3:12b,Gemma3:12B,P3,0.0
+lfm2.5-thinking:1.2b,LFM2.5:1.2B,P1,0.0
+lfm2.5-thinking:1.2b,LFM2.5:1.2B,P2,0.0
+lfm2.5-thinking:1.2b,LFM2.5:1.2B,P3,0.0
+qwen3:14b,Qwen3:14B,P1,0.008
+qwen3:14b,Qwen3:14B,P2,0.002
+qwen3:14b,Qwen3:14B,P3,0.009
+qwen3:4b,Qwen3:4B,P1,0.002
+qwen3:4b,Qwen3:4B,P2,0.002
+qwen3:4b,Qwen3:4B,P3,0.001
