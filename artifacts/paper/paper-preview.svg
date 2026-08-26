@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1160" viewBox="0 0 900 1160">
+  <rect width="900" height="1160" fill="white"/>
+  <rect x="1" y="1" width="898" height="1158" rx="10" fill="none" stroke="#d0d7de" stroke-width="2"/>
+
+  <text x="450" y="110" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#24292f">
+    IEEE Paper
+  </text>
+
+  <line x1="120" y1="150" x2="780" y2="150" stroke="#d8dee4" stroke-width="2"/>
+
+  <text x="450" y="255" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" fill="#24292f">
+    Research Paper Preview
+  </text>
+
+  <text x="450" y="315" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#57606a">
+    IEEE Xplore document #11511687
+  </text>
+
+  <rect x="145" y="405" width="610" height="360" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="2"/>
+  <line x1="205" y1="475" x2="695" y2="475" stroke="#8c959f" stroke-width="12" stroke-linecap="round"/>
+  <line x1="205" y1="525" x2="650" y2="525" stroke="#afb8c1" stroke-width="10" stroke-linecap="round"/>
+  <line x1="205" y1="575" x2="700" y2="575" stroke="#afb8c1" stroke-width="10" stroke-linecap="round"/>
+  <line x1="205" y1="625" x2="620" y2="625" stroke="#afb8c1" stroke-width="10" stroke-linecap="round"/>
+  <line x1="205" y1="675" x2="680" y2="675" stroke="#afb8c1" stroke-width="10" stroke-linecap="round"/>
+
+  <rect x="270" y="865" width="360" height="78" rx="12" fill="#0969da"/>
+  <text x="450" y="914" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="white">
+    Click to open on IEEE Xplore
+  </text>
+
+  <text x="450" y="1040" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#6e7781">
+    Preview card for GitHub README
+  </text>
+</svg>
